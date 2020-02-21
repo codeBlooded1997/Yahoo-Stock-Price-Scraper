@@ -6,6 +6,7 @@ import datetime
 import pandas as pd
 
 
+
 # opening chromedriver
 path_to_chromedriver = '/Users/arian/WorkSpace/dev/scraper/drivers/chromedriver'
 driver = webdriver.Chrome(executable_path=path_to_chromedriver)
