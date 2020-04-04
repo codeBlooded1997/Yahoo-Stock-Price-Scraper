@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 from twilio.rest import Client
-
+        https://finance.yahoo.com/quote/FB?p=FB&.tsrc=fin-srch
 URL = 'https://finance.yahoo.com/quote/FB?p=FB'
 ideal_price = input('Ideal price : ')
 
