@@ -18,7 +18,7 @@ def send_message(message):
     auth_token  = "84aa917ee50e1f59bf7c1d1264f7d1c3"
     client = Client(account_sid, auth_token)
     message = client.messages.create(
-       to="+14387004763",
+       to="YOUR NUMBER HERE",
        from_="+16194326457",
        body="Price is : {}.".format(message)
     )
